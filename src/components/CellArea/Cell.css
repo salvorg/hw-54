@@ -1,0 +1,19 @@
+.CellClosed {
+    display: inline-block;
+    background: grey;
+    width: 40px;
+    height: 40px;
+    margin: 1px;
+    border: 1px solid black;
+}
+
+.LookFor::after {
+    content: 'X';
+    color: grey;
+    line-height: 40px;
+}
+
+.CellOpened {
+    background: white;
+
+}
