@@ -1,0 +1,6 @@
+.CellArea {
+    display: flex;
+    flex-wrap: wrap;
+    width: 265px;
+    margin: 20px auto;
+}
